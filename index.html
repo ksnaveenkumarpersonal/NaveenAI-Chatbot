@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NaveenAI GPT</title>
+    <link rel="icon" href="./assets img/icon-tittle.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- script file adding -->
+    <script src="script.js" defer></script>
+    <!-- link stylesheet start-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/chat-gpt-icon.png" />
+    <link rel="stylesheet" href="style1.css" />
+    <!-- link stylesheet end-->
+  </head>
+  <body>
+    <!-- Nav Bar Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light pt-2 pb-2 bg-light bg-opacity-80"
+    >
+      <div class="container-xl">
+        <a class="navbar-brand" href="#intro">
+          <span class="text-dark fw-bold"
+            ><img src="./assets/chat-bot-png.png" alt="#" width="55px" />
+            NaveenAI GPT
+          </span>
+        </a>
+
+        <!-- Loading start -->
+
+        <div class="d-inline-grid">
+          <button class="btn btn-dark" type="button" disabled>
+            <span
+              class="spinner-grow spinner-grow-sm"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden" role="status">Loading...</span>
+          </button>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-dark" type="button">
+            <a href="login.html" class="text-decoration-none text-white"
+              >Login</a
+            >
+          </button>
+        </div>
+      </div>
+      <!-- Loading end -->
+    </nav>
+    <!-- Nav Bar end -->
+    <!-- login form -->
+
+    <main class="form-signin w-100 m-auto justify-content-center">
+      <form>
+        <div class="card bg-light bg-opacity-80" style="width: 18.5rem">
+          <img src="./assets/chat-bot-png.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Hii I'm NaveenAI &#x1F916;</h5>
+            <p class="card-text">Your Virtual Assistant.!</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Your Digital Partner.!</li>
+            <li class="list-group-item">I'm always ready to assist.!</li>
+            <li class="list-group-item">
+              Click the Message Button to start.!
+              <div class="spinner-grow spinner-grow-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </li>
+          </ul>
+          <div class="card-body">
+            <p class="text-body-secondary">
+              Copyright &copy; NaveenAI GPT<br />2025–2026 ®API Google Gemini<br />Build
+              by NAVEENKUMAR KS &#8482;
+            </p>
+            <!-- <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <!-- login form end -->
+    <button class="chatbot-toggler">
+      <span class="material-symbols-outlined"> mode_comment </span>
+      <span class="material-symbols-outlined"> close </span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>NaveenAI GPT</h2>
+        <span class="close-btn material-symbols-outlined"> close </span>
+      </header>
+      <ul class="chatbox" style="text-align: justify">
+        <li class="chat incoming" style="text-align: justify">
+          <span class="material-symbols-outlined"> smart_toy </span>
+          <p>
+            Hi I'm NaveenAI &#x1F916;<br />
+            Your Virtual Assistant.!
+          </p>
+        </li>
+      </ul>
+      <div class="chat-input" style="text-align: justify">
+        <textarea
+          name="#"
+          id="#"
+          placeholder="Message NaveenAI GPT"
+          required
+        ></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
+      </div>
+    </div>
+
+    <!-- login function file js start -->
+    <script src="script.js"></script>
+    <!-- login function file js end -->
+    <!-- bootstrap file cdn js start -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap file cdn js end -->
+  </body>
+</html>
